@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+     <script>
+        let p = document.createElement("p");
+        p.innerText = "Paragaraph";
+
+        //Create a <span> element
+            let span = document.createElement("span");
+            span.innerText = "span element";
+
+        // Append multiple things at once (elements + text)
+        document.body.append(p,span,"- and some text!");
+     </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <script>
+    //create a <p> element
+        let para = document.createElement("p");
+
+    // Add text inside <p>
+    para.innerText = "I'm from appendChild";
+
+    // Append <p> to body
+    document.body.appendChild(para);
+
+
+</script>
+</body>
+</html>
